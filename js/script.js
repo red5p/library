@@ -62,3 +62,13 @@ addBookToLibrary("title2", "author2", "pages2", false);
 addBookToLibrary("title3", "author3", "pages3", true);
 
 showAllBooks();
+
+const formContainer = document.querySelector(".formContainer");
+const cancel = document.querySelector("#cancel");
+const newBookBtn = document.querySelector("#newBookBtn");
+newBookBtn.onclick = () => {
+    formContainer.classList.add("show");
+}
+cancel.onclick = () => {
+    formContainer.classList.remove("show");
+}
