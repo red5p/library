@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    border: 2px red solid;
+}
+
+.books {
+    border: 2px rgb(25, 0, 255) solid;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.book {
+    background-color: bisque;
+    text-align: center;
+    width: 300px;
+    font-size: 80px;
+}
+
+.book .title {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-weight: bold;
+}
